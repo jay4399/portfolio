@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "deploy": "master -d /Users/Jay/Dev/portfolioGit/portfolio"
+    "deploy": "gh-pages -d /Users/Jay/Dev/portfolioGit/portfolio"
   },
   "repository": {
     "type": "git",
