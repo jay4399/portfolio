@@ -474,6 +474,19 @@ section {
   color: #45505b;
 }
 
+.resume .resume-button button[type="submit"] {
+  background: #0563bb;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.resume .resume-button button[type="submit"]:hover {
+  background: #0678e3;
+}
+
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
