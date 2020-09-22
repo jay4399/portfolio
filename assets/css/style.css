@@ -137,7 +137,9 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
+
 /* Desktop Navigation */
+
 .nav-menu * {
   margin: 0;
   padding: 0;
@@ -203,6 +205,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Mobile Navigation */
+
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
@@ -648,7 +651,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info p {
   color: #45505b;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
   padding: 0;
   margin: 0;
@@ -1113,6 +1116,12 @@ section {
 @media (max-width: 992px) {
   .portfolio-details .portfolio-info {
     padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio .portfolio-wrap .portfolio-links .hideExternal {
+    display: none;
   }
 }
 
