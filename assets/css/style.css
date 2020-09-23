@@ -382,7 +382,7 @@ section {
 }
 
 .about .content ul li {
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 .about .content ul i {
@@ -486,6 +486,8 @@ section {
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .resume .resume-button button[type="submit"]:hover {
