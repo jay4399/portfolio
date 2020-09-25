@@ -1,0 +1,1 @@
+A split screen slider made using HTML, CSS and JS. Uses advanced CSS function such as Skew method.
