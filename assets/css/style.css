@@ -566,8 +566,8 @@ section {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 700;
   line-height: 1;
   text-transform: uppercase;
   color: #272829;
@@ -593,7 +593,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.9);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -646,6 +646,10 @@ section {
   border-right: 3px solid #d7dce1;
   transition: all 0.5s ease 0s;
   z-index: 9994;
+}
+
+.portfolio .portfolio-wrap .portfolio-info h3 {
+  font-weight: 650;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
