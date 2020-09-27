@@ -981,7 +981,7 @@ section {
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
-  font-weight: 600;
+  font-weight: 600; 
 }
 
 .contact .php-email-form .error-message br + br {
