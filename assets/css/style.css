@@ -306,13 +306,14 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
   #hero h1 {
-    font-size: 32px;
+    font-size: 42px;
     line-height: 36px;
   }
   #hero p {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 21px;
     line-height: 24px;
+    padding: 20px 0 40px 0;
   }
 }
 
@@ -426,7 +427,7 @@ section {
 .skills .progress-bar {
   width: 1px;
   height: 10px;
-  transition: 3.5s;
+  transition: 2.5s;
   background-color: #0563bb;
 }
 
