@@ -643,7 +643,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="contact.php" method="post" role="form" class="php-email-form">
+            <form action="contact.php" method="post" role="form" class="php-email-form" data-recaptcha-site-key="6LdQBdEZAAAAAGXRt0kMki9x92CiPP2XIvMZlpuv">
               <div class="form-row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
@@ -670,6 +670,11 @@
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent to Jay Rathod. Thank you!</div>
+              </div>
+              <div class="form-group">
+                <span class="ml-2">Accept our <a href="terms.html">terms of service</a> and <a href="privacy.html">privacy policy</a></span>
+                <input type="checkbox" name="privacy" value="accept" class="float-left h-auto mt-1" data-rule="checked" data-msg="Please accept our terms of service and privacy policy">
+                <div class="validate"></div>
               </div>
               <div class="text-center"><button type="submit">Send Message to Jay</button></div>
             </form>
@@ -717,6 +722,7 @@
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render=6LdQBdEZAAAAAGXRt0kMki9x92CiPP2XIvMZlpuv"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
