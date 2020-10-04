@@ -39,8 +39,9 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top i {
   font-size: 24px;
   position: absolute;
-  top: 7px;
+  top: 15px;
   left: 8px;
+  animation: up 2s infinite;
 }
 
 .back-to-top:hover {
@@ -1046,6 +1047,21 @@ section {
 
 .contact .php-email-form button[type="submit"]:hover {
   background: #0678e3;
+}
+
+@keyframes up {
+  0% {
+      opacity: 0;;
+  }
+
+  50% {
+      opacity: 1;
+  }
+
+  100% {
+      opacity: 0;
+      transform: translateY(-1rem);
+  }
 }
 
 @-webkit-keyframes animate-loading {
