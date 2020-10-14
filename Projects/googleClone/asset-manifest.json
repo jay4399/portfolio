@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/googleClone/static/css/main.43c522d3.chunk.css",
+    "main.js": "/googleClone/static/js/main.0126c660.chunk.js",
+    "main.js.map": "/googleClone/static/js/main.0126c660.chunk.js.map",
+    "runtime-main.js": "/googleClone/static/js/runtime-main.3c5c21b6.js",
+    "runtime-main.js.map": "/googleClone/static/js/runtime-main.3c5c21b6.js.map",
+    "static/js/2.1578dff8.chunk.js": "/googleClone/static/js/2.1578dff8.chunk.js",
+    "static/js/2.1578dff8.chunk.js.map": "/googleClone/static/js/2.1578dff8.chunk.js.map",
+    "index.html": "/googleClone/index.html",
+    "precache-manifest.955d3d26861e664fc12f647551c6fd58.js": "/googleClone/precache-manifest.955d3d26861e664fc12f647551c6fd58.js",
+    "service-worker.js": "/googleClone/service-worker.js",
+    "static/css/main.43c522d3.chunk.css.map": "/googleClone/static/css/main.43c522d3.chunk.css.map",
+    "static/js/2.1578dff8.chunk.js.LICENSE.txt": "/googleClone/static/js/2.1578dff8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c5c21b6.js",
+    "static/js/2.1578dff8.chunk.js",
+    "static/css/main.43c522d3.chunk.css",
+    "static/js/main.0126c660.chunk.js"
+  ]
+}
