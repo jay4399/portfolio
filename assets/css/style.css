@@ -761,26 +761,53 @@ section {
   font-weight: 600;
   margin: 10px 0 15px 0;
   font-size: 22px;
-}
-
-.services .icon-box h4 a {
-  color: #45505b;
+  color: #0563bb;
   transition: ease-in-out 0.3s;
 }
 
+.services .icon-box h4:hover {
+  cursor: default;
+}
+
 .services .icon-box p {
-  line-height: 24px;
-  font-size: 14px;
+  line-height: 28px;
+  font-size: 16px;
   margin-bottom: 0;
 }
 
-.services .icon-box:hover {
+.services .icon-box p:hover {
+  cursor: default;
+}
+
+.services .iconbox-black:hover {
   border-color: #fff;
-  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 0 15px 0 #111;
+}
+
+.services .iconbox-blue:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 15px 0 #60dafc;
+}
+
+.services .iconbox-yellow:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 15px 0 #fee263;
+}
+
+.services .iconbox-black:hover hr {
+  border: 0.5px solid #111;
+}
+
+.services .iconbox-blue:hover hr {
+  border: 0.5px solid #60dafc;
+}
+
+.services .iconbox-yellow:hover hr {
+  border: 0.5px solid #fee263;
 }
 
 .services .iconbox-blue i {
-  color: #47aeff;
+  color: #60dafc;
 }
 
 .services .iconbox-blue:hover .icon i {
@@ -788,19 +815,19 @@ section {
 }
 
 .services .iconbox-blue:hover .icon path {
-  fill: #47aeff;
+  fill: #60dafc;
 }
 
-.services .iconbox-orange i {
-  color: #ffa76e;
+.services .iconbox-black i {
+  color: #111;
 }
 
-.services .iconbox-orange:hover .icon i {
+.services .iconbox-black:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
+.services .iconbox-black:hover .icon path {
+  fill: #111;
 }
 
 .services .iconbox-pink i {
@@ -816,7 +843,7 @@ section {
 }
 
 .services .iconbox-yellow i {
-  color: #ffbb2c;
+  color: #fee263;
 }
 
 .services .iconbox-yellow:hover .icon i {
@@ -824,7 +851,7 @@ section {
 }
 
 .services .iconbox-yellow:hover .icon path {
-  fill: #ffbb2c;
+  fill: #fee263;
 }
 
 .services .iconbox-red i {
