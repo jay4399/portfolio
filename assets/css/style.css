@@ -696,6 +696,10 @@ section {
   color: #148af9;
 }
 
+.portfolio .portfolio-wrap .portfolio-links a:focus {
+  outline: none;
+}
+
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
   left: 0;
