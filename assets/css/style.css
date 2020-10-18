@@ -662,16 +662,19 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info h3 {
+  cursor: default;
   font-weight: 650;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
+  cursor: default;
   font-size: 20px;
   color: #45505b;
   font-weight: 600;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
+  cursor: default;
   color: #45505b;
   font-size: 16px;
   text-transform: uppercase;
